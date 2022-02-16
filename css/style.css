@@ -1,0 +1,31 @@
+body {
+    font-family:Roboto;
+    background-color: #FFDF0F;
+    color: #5036FE;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Coda";
+    font: size 50pt;
+
+}
+
+header {
+    text-align:center;
+}
+
+#hero, footer {
+    color:#2914B3;
+    border: 2px solid #5036FE;
+    background-color:#B39B02;
+    text-align:center;
+    padding:10px;
+}
+
+#hero img {
+    width:300px;
+}
+
+#bio {
+    text-align:center;
+}
