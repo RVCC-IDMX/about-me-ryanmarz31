@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 50pt;
 }
 
+h2 {
+    margin: .1em;
+}
+
 header {
     text-align:center;
 }
@@ -38,9 +42,14 @@ header {
 
 /*Hobbies*/
 
-#hobbies ul li:nth-child(even) {
+#hobbies {
     color:#2914B3;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
 }
+
+
 
 /*Gallery*/
 
@@ -76,9 +85,26 @@ header {
 
 /*Dropcaps*/
 #lit div p:first-letter {
-    color: yellow;
+    color: purple;
     float:left;
     font-size:3em;
     font-family:"Coda";
     float:left;
+}
+
+
+@media screen and (min-width: 60em){
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+
 }
