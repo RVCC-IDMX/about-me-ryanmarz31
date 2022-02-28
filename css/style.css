@@ -76,7 +76,7 @@ header {
 
 /*Dropcaps*/
 #lit div p:first-letter {
-    color: red;
+    color: yellow;
     float:left;
     font-size:3em;
     font-family:"Coda";
