@@ -49,6 +49,18 @@ header {
     align-items: center;
 }
 
+/*Video*/
+
+#video {
+    text-align: center;
+}
+
+h3 {
+    font-size: 20pt;
+    color: black;
+
+}
+
 
 
 /*Gallery*/
