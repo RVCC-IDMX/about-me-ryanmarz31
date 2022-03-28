@@ -167,12 +167,15 @@ h3 {
 #formElements {
     display:grid;
     row-gap:.5em;
+    
+    
 }
 
 #contact {
     padding: 1rem;
-    max-width: 600px;
-    margin:2rem auto;
+    max-width: 800px;
+    margin: auto;
+    
 }
 
 fieldset {
@@ -208,4 +211,20 @@ legend {
     max-width:400px;
     width:50%;
     justify-self: center;
+}
+
+#name {
+    width: auto;
+}
+
+#email {
+    width: auto;
+}
+
+#phone {
+    width: auto;
+}
+
+#message {
+    width: auto;
 }
