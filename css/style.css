@@ -190,14 +190,18 @@ legend {
     padding:.5em;
 }
 
+
+
 #contact input, #contact textarea, #contact select, #contact button {
     padding: .5em;
     font-size:1rem;
+    
 }
 
 #contact ul {
     list-style:none;
     padding:0px;
+    
 }
 
 #contact li {
@@ -215,17 +219,18 @@ legend {
 }
 
 #name {
-    width: auto;
+    width: 96%;
 }
 
 #email {
-    width: auto;
+    width: 96%;
 }
 
 #phone {
-    width: auto;
+    width: 96%;
 }
 
 #message {
-    width: auto;
+    width: 96%;
 }
+
