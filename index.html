@@ -17,6 +17,7 @@
     <link href="css/style.css" rel="stylesheet"> 
     <link href="css/nav.css" rel="stylesheet"> 
 
+    <link rel="initials" type="Images/initials" href="Images/favicon-96x96.png">
 
 </head>
 <body>
@@ -24,24 +25,43 @@
     <header>
 
         <!--header that shows the logo and page title and nav bar-->
-        <nav class="navbar">
+        <div class="mobile-container">
 
+        <div class="topnav">
+            
             <div class="logo">
-                <img src="Images/logo-96X96.svg" alt="Blue origami logo"> 
+                <img src="Images/initials.svg" alt="Initials RM"> 
                 <h1>Web Dev I</h1>
-            </div>
-            <div class="navbar-links">
-                <ul>
-                    <li><a href="#bio">Bio</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#lit">Blog</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
-                </ul>
-            </div>
-        </nav>
+                <div id="myLinks">
+                    <a href="#bio">Bio</a></li>
+                    <a href="#gallery">Gallery</a></li>
+                    <a href="#lit">Blog</a></li>
+                    <a href="#contact">Contact Me</a></li>
+                </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+        </div>
+            
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+        </script>
+            
+            
+        
+            
+        </label>
     </header>
 
     <main>
+<!--This is the hero section-->
 
             <section id="hero">
             <img src="Images/avataaars.png" alt="My avatar">
@@ -52,42 +72,48 @@
         </section>
 
         <section id="bio">
-            <!--bio section! not too personal-->
-
+<!--bio section!-->
+            <img src="Images/IMG_7917.jpeg" alt="Me">
             <h2>Biography:</h2>
 
             <div>
-                <p>I want to be...</p>
-                <p>An IT Professionalist.</p>
 
-                <p>I like to...</p>
-                <p>play the drumset and video games.</p>
+                <p>
+                    Hi, my name is Ryan Marzigliano. This is my biography of my About Me 
+                    website. For starters, I am following the degree path of becoming an
+                    IT Professionalist. My degree, Information Systems and Technology, 
+                    provides me with a multitude of new jobs, such as a Computer Research
+                    Scientist, Software Developer, Webpage Designer, etc. Beside's schooling, 
+                    I work at a newly opened gym in town called Planet Fitness. I have 
+                    participated in many sports, such as soccer, tennis, swim, golf, track,
+                    and marching band. I enjoy working out, playing the drumset, and playing
+                    video games. I graduated from Warren Hills Regional High School. I have
+                    three dogs, that are shown in an image and video below, named Pluto, Lane, 
+                    and Saki. Last but not least, my favorite color is blue.
+                </p>
 
-                <p>I graduated from...</p>
-                <p>Warren Hills Regional High School.</p>
-
-                <p>I have three dogs...</p>
-                <p>named Pluto, Lane, and Saki.</p>
-
-                <p>Finally, my favorite color is...</p>
-                <p>Blue!</p>
-
+                
 
             </div>
-        
+
         </section>
+
+
+<!--the following is the hobbies section-->
+
 
         <section id="hobbies">
 
             <h2>Hobbies:</h2>
 
             <ul>
-
+                <p>Some of my Hobbies Include:</p>
                 <li>Snowboarding</li>
                 <li>Playing Drumset</li>
                 <li>Playing with my dogs</li>
                 <li>Playing Video Games</li>
                 <li>Computer Science</li>
+                <li>Working Out</li>
 
 
 
@@ -96,6 +122,7 @@
 
         </section>
 
+<!--The following is the photo gallery section-->
 
         <section id="gallery">
 
@@ -104,8 +131,10 @@
             <hr>
 
             <figure>
+                
                 <img src="Images/snowboard-640w.jpg" alt="My Snowboard">
                 <figcaption>My snowboard I have used for three years</figcaption>
+                
             </figure>
 
             <figure>
@@ -122,11 +151,13 @@
 
         </section>
 
+<!--This is where the video is coded in-->
+
         <section id="video">
 
             <h2>A Short Video:</h2>
 
-            <iframe width="560" height="315" 
+            <iframe width="375" height="250" 
             src="https://www.youtube.com/embed/JiEdhGYYu7s" 
             title="YouTube video player" frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -137,106 +168,54 @@
 
         </section>
 
+<!--This is the literature section-->
+
         <article id="lit">
 
-                <h2>An Excerpt From Sherlock Holmes</h2>
+                <h2>Blog: CSS Animations</h2>
 
                 <div>
 
-                    <p>"The next I heard of Frank was that he was in Montana, 
-                        and then he went prospecting in Arizona, and then I 
-                        heard of him from New Mexico. After that came a long 
-                        newspaper story about how a miners' camp had been attacked 
-                        by Apache Indians, and there was my Frank's name among the 
-                        killed. I fainted dead away, and I was very sick for months
-                        after. Pa thought I had a decline and took me to half the 
-                        doctors in 'Frisco. Not a word of news came for a year and 
-                        more, so that I never doubted that Frank was really dead. 
-                        Then Lord St. Simon came to 'Frisco, and we came to London, 
-                        and a marriage was arranged, and pa was very pleased, 
-                        but I felt all the time that no man on this earth would
-                        ever take the place in my heart that had been given to
-                        my poor Frank.</p>
+                    <p>CSS Animation is a very interesting topic to discuss. Not only does it provide more pizazz 
+                        to your webpage, but it can give your website a unique factor to it, depending on what 
+                        animations you use and how many you do use. You can change whatever you want, whenever 
+                        you want, however you want with the use of CSS Animation tools. But, to animate in CSS, 
+                        you must be familiar with the keyframes rule. Keyframes contains the elements from and to, 
+                        which are essential to changing the css from one style to another. As well as this, keyframes 
+                        uses a percentage number to determine when animation will take place in a sequence. 0% 
+                        is the beginning of an animation, and 100% shows that the animation has completed. Once
+                        you establish the keyframes, the animation will take place and the current style will 
+                        change to a new style, and this happens whenever the coder wants it to happen and it 
+                        can turn into pretty much any style possible. The animation must be binded to an element
+                        for it to work. Getting deeper into the code, the animation-duration aspect will determine 
+                        how long the entire animation will take. Animation-name gives a specific name to keyframes.
+                        Animation-play-state gives the webpage user the option to pause and start the animation. 
+                        The animation-delay will delay the animation by any desired amount. Animation-iteration-count
+                        will determine how many times the animation occurs before stopping. Animation-direction shows
+                        what direction the animation will take place. Under this, the following codes will be used: 
+                        Normal – the animation is played regularly, reverse – animation goes in a reverse direction, 
+                        alternate – animation is played forwards normally then backwards, and finally alternate-reverse 
+                        – the animation is played backwards then forwards. Using the animation-timing-function sets how 
+                        fast the animation will take place. Under this property, using ease will start the animation slowly, 
+                        then get faster, then slower. Linear will give the animation the same speed from start to end. 
+                        Ease-in will have a slow start, and ease-out will have a slow end. Ease-in-out will give you a 
+                        slow start and end. Finally, cubic-bezier(n, n, n, n) will let you choose your own timing. 
+                        Finally, the last property is animation-fill-mode. This can have the following values: none, 
+                        forwards, backwards, and both. None is default, meaning the animation will not apply styles 
+                        to an element before or after the animation occurs. Forwards means the element will keep the 
+                        style last used on it. Backwards means the style values will be the same as the first keyframe. 
+                        Finally, the both value gives the animation both forwards and backwards properties. Now, I’m not 
+                        sure if you, the webpage reader, saw the animation example I have incorporated into my website. 
+                        If you did, great! But if you didn’t, it is probably because the animation occurred when you loaded 
+                        up this page. My example of this CSS animation is actually this entire paragraph, so if you could 
+                        please refresh the page and look at this paragraph, there will be an animation happening. </p>
 
-                    <p>"Still, if I had married Lord St. Simon, of course I'd 
-                        have done my duty by him. We can't command our love, but 
-                        we can our actions. I went to the altar with him with 
-                        the intention to make him just as good a wife as it was 
-                        in me to be. But you may imagine what I felt when, just 
-                        as I came to the altar rails, I glanced back and saw 
-                        Frank standing and looking at me out of the first pew. 
-                        I thought it was his ghost at first; but when I looked 
-                        again there he was still, with a kind of question in his 
-                        eyes, as if to ask me whether I were glad or sorry to see 
-                        him. I wonder I didn't drop. I know that everything was
-                        turning round, and the words of the clergyman were 
-                        just like the buzz of a bee in my ear. I didn't know 
-                        what to do. Should I stop the service and make a scene 
-                        in the church? I glanced at him again, and he seemed 
-                        to know what I was thinking, for he raised his finger 
-                        to his lips to tell me to be still. Then I saw him 
-                        scribble on a piece of paper, and I knew that he was
-                        writing me a note. As I passed his pew on the way out 
-                        I dropped my bouquet over to him, and he slipped the 
-                        note into my hand when he returned me the flowers. 
-                        It was only a line asking me to join him when he made 
-                        the sign to me to do so. Of course I never doubted for 
-                        a moment that my first duty was now to him, and I determined
-                        to do just whatever he might direct.</p>
-
-                    <p>"When I got back I told my maid, who had known him 
-                        in California, and had always been his friend. I 
-                        ordered her to say nothing, but to get a few things 
-                        packed and my ulster ready. I know I ought to have 
-                        spoken to Lord St. Simon, but it was dreadful hard 
-                        before his mother and all those great people. I just 
-                        made up my mind to run away and explain afterwards. 
-                        I hadn't been at the table ten minutes before I saw 
-                        Frank out of the window at the other side of the road. 
-                        He beckoned to me and then began walking into the Park. 
-                        I slipped out, put on my things, and followed him. Some 
-                        woman came talking something or other about Lord St. Simon 
-                        to me--seemed to me from the little I heard as if he had a 
-                        little secret of his own before marriage also--but I managed 
-                        to get away from her and soon overtook Frank. We got 
-                        into a cab together, and away we drove to some lodgings 
-                        he had taken in Gordon Square, and that was my true wedding 
-                        after all those years of waiting. Frank had been a prisoner 
-                        among the Apaches, had escaped, came on to 'Frisco, found 
-                        that I had given him up for dead and had gone to England, 
-                        followed me there, and had come upon me at last on the very 
-                        morning of my second wedding."</p>
-
-                    <p>"I saw it in a paper," explained the American. 
-                        "It gave the name and the church but not where the lady lived."</p>
-
-                    <p>"Then we had a talk as to what we should do, and Frank 
-                        was all for openness, but I was so ashamed of it all that 
-                        I felt as if I should like to vanish away and never see any 
-                        of them again--just sending a line to pa, perhaps, to show 
-                        him that I was alive. It was awful to me to think of all 
-                        those lords and ladies sitting round that breakfast-table 
-                        and waiting for me to come back. So Frank took my wedding-clothes 
-                        and things and made a bundle of them, so that I should not be 
-                        traced, and dropped them away somewhere where no one could find 
-                        them. It is likely that we should have gone on to Paris to-morrow, 
-                        only that this good gentleman, Mr. Holmes, came round to us this 
-                        evening, though how he found us is more than I can think, and he 
-                        showed us very clearly and kindly that I was wrong and that Frank 
-                        was right, and that we should be putting ourselves in the wrong 
-                        if we were so secret. Then he offered to give us a chance of talking 
-                        to Lord St. Simon alone, and so we came right away round to his 
-                        rooms at once. Now, Robert, you have heard it all, and I am very 
-                        sorry if I have given you pain, and I hope that you do not think 
-                        very meanly of me."</p>
-
-                    <p>Lord St. Simon had by no means relaxed his rigid attitude, 
-                        but had listened with a frowning brow and a compressed lip 
-                        to this long narrative.</p>
 
                 </div>
 
         </article>
+
+<!--Here is the contact form-->
 
         <section id="contact">
 
@@ -317,9 +296,11 @@
 
         </main>
 
+<!-- and finally, here is the footer -->
+
     <footer>
 
-        &copy; 2022 - Ryan Marzigliano
+        &copy; 2022 - Ryan Marzigliano --- https://github.com/RVCC-IDMX/about-me-ryanmarz31
         
     </footer>
 
