@@ -43,7 +43,9 @@ more into it. Things like creating a contact form and incorporating a video
 into the website are really fascinating things as well. I never thought I would
 be able to do that by the end of this semester. After finishing the final touches, being able to edit and change the bird logo into my own logo and figure out what specific things I want to change and make better gave me a good opportunity to 
 expand on what I know and add in things that fit my taste, rather than following
-a specific code plan.
+a specific code plan. Finally, being able to research my own topic to learn about was really
+good for me because I chose CSS Animations, and looking into this topic, I can see many new
+ways of how I can make a website look more interesting and professional.
 
 ## Color Scheme
 
@@ -64,7 +66,13 @@ FFDF0F and it's RGB is (255,223,15). </font>
 
 ## Citations
 
+Here are my citations for the CSS Animation Blog:
 
+https://www.w3schools.com/css/css3_animations.asp
+
+https://animate.style
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
 
 ## License
 
