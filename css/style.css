@@ -4,6 +4,10 @@ body {
     color: #5036FE;
 }
 
+h1 {
+    margin: 10px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family:"Coda";
     text-align:center;
@@ -28,8 +32,6 @@ header {
 
 /*Hero Section*/
 
-
-
 #hero img {
     width:300px;
 }
@@ -38,6 +40,17 @@ header {
 
 #bio {
     text-align:center;
+    line-height: 30px;
+    margin: 20px;
+
+}
+
+#bio img {
+    align-self: left;
+    max-width:100%;
+    max-height:300px;
+    margin: 30px;
+    
 }
 
 /*Hobbies*/
@@ -47,13 +60,14 @@ header {
     display: flex; 
     flex-direction: column; 
     align-items: center;
+
 }
 
 /*Video*/
 
 #video {
     text-align: center;
-    width: 100%;
+    width:100%;
     display:block;
     margin:auto;
 }
@@ -108,7 +122,6 @@ h3 {
 
 
 }
-
 
 
 
@@ -209,13 +222,16 @@ legend {
 }
 
 #button {
+    display:grid;
     background-color: #2914B3;
     color: white;
     border: 1px solid #5036FE;
+    justify-self: center;
     max-width:400px;
     width:50%;
     margin: auto;
-    justify-self: center;
+
+    
 }
 
 #name {

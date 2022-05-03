@@ -41,7 +41,9 @@ right now, I'm not too big of a fan of flex and grid just because I still get
 confused by it sometimes, but I understand how useful it can be so I want to look
 more into it. Things like creating a contact form and incorporating a video
 into the website are really fascinating things as well. I never thought I would
-be able to do that by the end of this semester. 
+be able to do that by the end of this semester. After finishing the final touches, being able to edit and change the bird logo into my own logo and figure out what specific things I want to change and make better gave me a good opportunity to 
+expand on what I know and add in things that fit my taste, rather than following
+a specific code plan.
 
 ## Color Scheme
 
@@ -57,8 +59,8 @@ it's RGB is (80,54,254). </font>
 <font color=#B39B02> This is the color of the background inside the borders.
 It's Hex Number is B39B02 and it's RGB is (179,155,2). </font>
 
-<font color=#FFDFOF> This is the color of the background. It's Hex Number is 
-FFDFOF and it's RGB is (255,223,15). </font>
+<font color=#FFDF0F> This is the color of the background. It's Hex Number is 
+FFDF0F and it's RGB is (255,223,15). </font>
 
 ## Citations
 
