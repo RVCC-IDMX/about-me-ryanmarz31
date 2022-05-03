@@ -41,11 +41,16 @@ right now, I'm not too big of a fan of flex and grid just because I still get
 confused by it sometimes, but I understand how useful it can be so I want to look
 more into it. Things like creating a contact form and incorporating a video
 into the website are really fascinating things as well. I never thought I would
-be able to do that by the end of this semester. After finishing the final touches, being able to edit and change the bird logo into my own logo and figure out what specific things I want to change and make better gave me a good opportunity to 
-expand on what I know and add in things that fit my taste, rather than following
+be able to do that by the end of this semester. After finishing the final touches, being able to edit and change the bird logo into my own logo and figure out what specific things I want to change and make better gave me a good opportunity to expand on what I know and add in things that fit my taste, rather than following
 a specific code plan. Finally, being able to research my own topic to learn about was really
 good for me because I chose CSS Animations, and looking into this topic, I can see many new
 ways of how I can make a website look more interesting and professional.
+With the help of the last website listed in the citations, I was able to figure out
+a way how to enable a certain type of the hamburger icon method. Watching the
+given video's really did not help me because as I was relating it towards
+my own code, I had no idea what to do. But after this website helped me understand it,
+I was able to get a box in the top right and have that be the menu icon. I used some of
+their given code and edited it to be part of mine, so I made sure to give them credit.
 
 ## Color Scheme
 
@@ -74,11 +79,17 @@ https://animate.style
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
 
+This website helped me understand CC Licensing
+
+https://pitt.libguides.com/copyright/licenses
+
+This website's code helped me create the hamburger menu:
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar
+
 ## License
 
-
-
-
-
-
+I would go for the CC BY-SA because it would allow for the copy and publication of my site,
+I would be attributed for my work, the website can be used commercially, it can be modified
+and adapted by others, but I would not allow for the changing of license type.
 

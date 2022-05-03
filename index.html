@@ -25,21 +25,39 @@
     <header>
 
         <!--header that shows the logo and page title and nav bar-->
-        <nav class="navbar">
+        <div class="mobile-container">
 
+        <div class="topnav">
+            
             <div class="logo">
                 <img src="Images/initials.svg" alt="Initials RM"> 
                 <h1>Web Dev I</h1>
-            </div>
-            <div class="navbar-links">
-                <ul>
-                    <li><a href="#bio">Bio</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#lit">Blog</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
-                </ul>
-            </div>
-        </nav>
+                <div id="myLinks">
+                    <a href="#bio">Bio</a></li>
+                    <a href="#gallery">Gallery</a></li>
+                    <a href="#lit">Blog</a></li>
+                    <a href="#contact">Contact Me</a></li>
+                </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+        </div>
+            
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+        </script>
+            
+            
+        
+            
+        </label>
     </header>
 
     <main>
